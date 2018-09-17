@@ -6,12 +6,12 @@
 
   <span ng-if="help">
     <span ng-if="helpIcon" class="{{helpIcon}}"
-          popover="{{help}}"
+          uib-popover="{{help}}"
           popover-trigger="mouseenter"
           popover-placement="right"></span>
 
     <span ng-if="!helpIcon" class="fa fa-question-circle"
-          popover="{{help}}"
+          uib-popover="{{help}}"
           popover-trigger="mouseenter"
           popover-placement="right"></span>
   </span>
